@@ -10,7 +10,7 @@ const spanAprovado = '<span class="resultado aprovado"> Aprovado </span>'
 const spanReprovado = '<span class="resultado reprovado"> Reprovado </span>'
 
 //Insere a nota minima corte para aprovação personalizada
-let notaMinima = prompt('Digite a Nota Mínima para Aprovação')
+let notaMinima = parseFloat(prompt('Digite a Nota Mínima para Aprovação'))
 
 form.addEventListener('submit', function(e){
     e.preventDefault()
